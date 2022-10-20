@@ -47,6 +47,20 @@
                     android:onClick="Guardar"
                     android:text="@string/Button" />
             </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
         </androidx.cardview.widget.CardView>
     </FrameLayout>
 
