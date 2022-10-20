@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Peoyecto3U2</string>
+    <string name="editText_email">Ingrese su e-mail</string>
+    <string name="Button">Guardar</string>
 </resources>
