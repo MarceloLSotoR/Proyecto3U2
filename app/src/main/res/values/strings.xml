@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Peoyecto3U2</string>
+    <string name="txt_email">Ingrese su email</string>
+    <string name="button">guardar</string>
+
+    <string name="txt_codigo">Codigo del Prod.</string>
+    <string name="txt_nombre">Nombre del Prod.</string>
+    <string name="txt_precio">Precio del Prod.</string>
+
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_Buscar">Buscar</string>
+    <string name="btn_Eliminar">Eliminar</string>
+    <string name="btn_Modificar">Modificar</string>
+
 </resources>
