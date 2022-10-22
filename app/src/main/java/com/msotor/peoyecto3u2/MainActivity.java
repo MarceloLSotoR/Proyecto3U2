@@ -3,6 +3,7 @@ package com.msotor.peoyecto3u2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -31,5 +32,11 @@ public class MainActivity extends AppCompatActivity {
         Obj_editor.putString("mail", et1.getText().toString());
         Obj_editor.commit();
         finish();
+    }
+
+    public void iniciarBaseDeDatos(View v){
+        Intent intent = new Intent(this,base_de_datos.class);
+        startActivity(intent);
+
     }
 }
