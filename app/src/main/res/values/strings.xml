@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Peoyecto3U2</string>
+    <string name="btn_datosp">Datos Persistentes</string>
+    <string name="btn_cbased">Base de Datos</string>
+    <string name="txt_codigo">Código</string>
+    <string name="txt_des">Descripción</string>
+    <string name="txt_precio">Precio</string>
+    <string name="btn_regist">Guardar</string>
+    <string name="btn_busc">Buscar </string>
+    <string name="btn_elim">Eliminar </string>
+    <string name="btn_mod">Modificar </string>
+
+
 </resources>
