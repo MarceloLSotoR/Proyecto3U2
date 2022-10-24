@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void Boton_BD (View view){
-        Intent i = new Intent(MainActivity.this,MainActivity2.class);
+    public void Boton_BD (View view) {
+        Intent i = new Intent(MainActivity.this, MainActivity2.class);
         startActivity(i);
     }
 }
