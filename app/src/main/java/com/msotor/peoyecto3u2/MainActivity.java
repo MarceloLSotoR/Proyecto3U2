@@ -17,5 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, MainActivity2.class);
         startActivity(i);
     }
+    public void Boton_Persistente(View view) {
+        Intent i = new Intent(MainActivity.this, MainActivity3.class);
+        startActivity(i);
+    }
 
 }

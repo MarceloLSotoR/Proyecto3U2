@@ -9,6 +9,7 @@
     <string name="btn_busc">Buscar </string>
     <string name="btn_elim">Eliminar </string>
     <string name="btn_mod">Modificar </string>
+    <string name="txt_mail">Ingrese Mail</string>
 
 
 </resources>
