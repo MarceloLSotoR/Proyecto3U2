@@ -10,6 +10,10 @@
     <string name="btn_elim">Eliminar </string>
     <string name="btn_mod">Modificar </string>
     <string name="txt_mail">Ingrese Mail</string>
+    <string name="btn_web">Página web</string>
+    <string name="btn_redirigir">Ir a Página web</string>
+    <string name="btn_cerrar">Cerrar Página</string>
+
 
 
 </resources>

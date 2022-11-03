@@ -21,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, MainActivity3.class);
         startActivity(i);
     }
+    public void Boton_Pagina(View view) {
+        Intent i = new Intent(MainActivity.this, MainActivity3.class);
+        startActivity(i);
+    }
 
 }

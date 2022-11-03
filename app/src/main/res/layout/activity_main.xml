@@ -19,19 +19,6 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <Button
-        android:id="@+id/btn_datosp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="Boton_Persistente"
-        android:text="@string/btn_datosp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
-
-    <Button
         android:id="@+id/btn_cbased"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,5 +29,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Boton_Persistente"
+        android:text=" Datos PErsistentes"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_paginaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Boton_Pagina"
+        android:text="@string/btn_web"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="424dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
